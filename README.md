@@ -11,11 +11,10 @@ localStorageの保存キーは変更しません。
 
 この2つのキーを変えると、同じURLで使っているブラウザ内データを読めなくなる可能性があります。
 
-## Netlify設定
+## GitHub Pages設定
 
-- Base directory: 空欄、またはリポジトリ直下
-- Build command: 空欄
-- Publish directory: `.`
+- Source: `Deploy from a branch`
+- Branch: `main`
+- Folder: `/ (root)`
 
-このフォルダ自体をGitHubリポジトリにする場合は、Netlifyは `netlify.toml` を読んでそのまま `index.html` を公開します。
-
+`index.html` をリポジトリ直下に置いているため、ビルドなしでそのまま公開できます。
